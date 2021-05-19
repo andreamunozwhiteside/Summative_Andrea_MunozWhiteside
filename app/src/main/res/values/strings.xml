@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Museum2</string>
+    <string name="images_of_museum">images of museum</string>
+    <string name="textview">TextView</string>
+    <string name="line_1">Line 1</string>
+    <string name="brief_description_of_each_museum">Brief description of each museum</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/listview"
+        tools:ignore="Suspicious0dp" />
+    <TextView
+        android:text="Total price = £"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total2" />
+    <Button
+        android:text="Proceed to payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proceedtopayment1"
+        android:id="@+id/proceedtopayment" />
+</LinearLayout>
